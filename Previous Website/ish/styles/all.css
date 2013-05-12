@@ -1,0 +1,52 @@
+/* This is the style of your browser text */
+
+
+
+
+h1 {
+ font-family:  Arial, Verdana, Geneva, Helvetica, sans-serif;
+ line-height: 22px;
+ font-size: 36px;
+ padding: 10px 10px 10px 0;
+ margin: 0;
+ color: #666;
+}
+#contentholder {
+
+ width: 741px;
+ height: auto;
+ clear: both;
+ margin-bottom: 10px;
+
+}
+
+#contentright {
+	width: 223px;
+	height: auto;
+	float: left;
+	margin: 50px 0px 20px 0px;
+	padding-left: 15px;
+	text-align:left;
+}
+
+#contentleft {
+	background: url(../styles/textarea.jpg) no-repeat bottom #fff;
+	width: 483px;
+	height: auto;
+	float: left;
+	padding: 0 0 100px 0;
+	margin: 25px 0px 20px 0px;
+}
+
+#text {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+	color: #426e68;
+	width: 436px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding: 0 0 70px 0;
+	text-align: left;
+}

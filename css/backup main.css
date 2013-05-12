@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body
+{	
+	background-color:#000;
+	background-image:url(../Images/Layout/bg-photo-2.jpg);
+	background-position:top center;	
+	background-repeat:no-repeat;
+	
+}
+
+h1
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.right
+{
+	float:right;
+}
+
+.left
+{
+	float:left;
+}
+
+#wrapper
+{
+	margin:auto;
+	margin-top:50px;
+	width:900px;
+	height:700px;
+
+}
+
+#flag
+{
+	background-image:url(../Images/Layout/Flag.jpg);
+	float:left;
+	width:300px;
+	height:200px;
+}
+
+#header
+{
+	
+	float:right;
+	width:596px;
+	height:200px;
+}
+
+#flag, #header
+{
+	margin-bottom:50px;
+}
+
+#nav-wrap
+{
+	float:left;
+	width:150px;
+	height:400px;
+}
+
+.nav
+{
+	text-shadow: 0px 0px 5px rgba(0,0,0,255);
+}
+
+#nav-home, #nav-aboutus, #nav-services, #nav-gallery, #nav-safety, #nav-contactus
+{
+
+	display:block;
+	background-color:#fff;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	height:27px;
+	width:140px;
+	padding-left:10px;
+	padding-top:8px;
+	margin-bottom:5px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+	filter: alpha(opacity=85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+
+}
+
+#content-wrap
+{
+	float:none;
+	width:auto;
+	height:400px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+	filter: alpha(opacity=85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+	
+}
+
+#content-box
+{
+	overflow:auto;
+	background-color:#fff;
+	float:right;
+	padding:30px;
+	width:71%;
+	min-height:340px;
+	margin-left:50px;
+}
+
+p
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:18px;
+}
+
+.para
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:14px;
+}

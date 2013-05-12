@@ -1,0 +1,201 @@
+body {
+margin: 0px;
+padding: 0px;
+text-align: center;
+background: #069ca5;
+width: 100%;
+}
+html {
+	height: 100%;
+}
+
+
+#container {
+	height: auto;
+	width: 770px;
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+	background-color: #fff;
+}
+
+
+#top {
+	width: 770px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#contentarea {
+	width: 741px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0px;
+	clear: both;
+}
+
+
+
+#contenttop {
+	background: url(../styles/topcontainer.jpg) no-repeat;
+	margin: 0 auto;
+	padding-top: 0px;
+	height: auto;
+	width: 741px;
+	clear: both;
+}
+
+
+
+#companyname {
+	width: auto;
+	height: auto;
+	margin: 0px;
+	margin-top: 50px;
+	padding-left: 23px;
+	float: left;
+}
+
+
+
+
+#contentleft {
+	background: url(../styles/textareastyle5.jpg) no-repeat bottom #fff;
+	width: 483px;
+	height: auto;
+	float: left;
+	
+	margin: 25px 0px 20px 0px;
+}
+
+
+
+#profile {
+	width: 126px;
+	height: 17px;
+	margin-top: 0px;
+	padding-left: 23px;
+	float: left;
+}
+
+
+
+
+#text {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+	color: #187386;
+	width: 436px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding: 0px;
+	text-align: left;		
+}
+
+
+
+
+#contentright {
+	width: 223px;
+	height: auto;
+	float: left;
+	margin: 70px 0px 20px 0px;
+	padding-left: 15px;
+}
+
+
+
+#bottom {
+	background: url(../styles/stripe-boxesstyle5.jpg) no-repeat bottom #fff;
+	width: 740px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0px;
+	clear: both;
+}
+
+
+#textaddress {
+	width: 215px;
+	height: auto;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 11px;
+	color: #187386;
+	float: left;
+	text-align: left;
+	margin: 0px 0px 35px 0px;
+	padding-left: 30px;
+}
+
+
+
+#textcontact {
+	width: 215px;
+	height: auto;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 11px;
+	color: #187386;
+	float: left;
+	text-align: left;
+	margin: 0px 0px 35px 0px;
+	padding-left: 27px;
+}
+
+
+
+#textother {
+	width: 215px;
+	height: auto;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 11px;
+	color: #187386;
+	float: left;
+	text-align: left;
+	margin: 0px 0px 35px 0px;
+	padding-left: 26px;
+}
+
+
+
+
+#footer{
+	background: url(../styles/footerstyle5.jpg) no-repeat;
+	width: 770px;
+	height: 38px;
+	margin: 0 auto;
+	clear: both;
+}
+
+
+
+
+#footertext {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 11px;
+	color: #187386;
+	text-align: right;
+	padding-right: 25px;
+}
+
+#footertext a {
+	text-decoration:none;
+	color: #666;
+}
+
+.move {
+	margin: 40px 0px 20px 0px;
+	padding-right: 50px;
+	float: right;
+}
+
+
+
+

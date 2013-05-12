@@ -1,0 +1,152 @@
+	
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Switch Group, Inc - Fast Web Hosting</title>
+
+	
+	<link rel="stylesheet" type="text/css" href="http://www.switchgroup.com/templates/globals.css" />
+</head>
+<body>
+ <div id="wrap">
+ 	<div id="header">
+		<img src="http://www.switchgroup.com/images/logo.gif" height="64" width="106" alt="Switch Media Logo" />
+		<div id="login">
+			<form action="http://www.switchgroup.com/cgi-bin/get-account.cgi" method="post">
+				<h2>Existing Customer Login</h2>
+				<p>Please Enter your domain name <input type="text" id="loginbox" name="domain" /><input type="submit" id="loginsubmit" value="GO" /> </p>
+			</form>
+		</div>
+	</div>
+	<br clear="all" />
+	<div id="topmenu">
+		<div class="right">
+			<a href="http://www.switchgroup.com/">USA</a> | <a href="http://www.switchmedia.co.uk">UK</a> | <a href="http://www.switchmedia.ie/">Ireland</a>
+		</div>
+		<!-- all of the links below must be together with no whitespace in the sourcecode due to IE whitespace bug -->
+		<a href="http://www.switchgroup.com" class="first">Home</a><a href="http://www.switchgroup.com/domains/">Domain Names</a><a href="http://www.switchgroup.com/hosting/">Hosting</a><a href="http://www.switchgroup.com/servers/" class="last">Dedicated Servers</a>
+	</div>
+	<div id="navigation">
+
+		<h2>JUMP TO...</h2>
+
+		<h2>Domains</h2>
+
+		<ul>
+			<li><a href="http://www.switchgroup.com/domains/#package1">Basic Domain</a></li>
+			<li><a href="http://www.switchgroup.com/domains/#package2">Instant Email</a></li>
+			<li><a href="http://www.switchgroup.com/domains/#package3">Instant Website</a></li>
+			<li><a href="http://www.switchgroup.com/domains/#package4">Switch Start</a></li>
+		</ul>
+
+
+		<h2>Hosting</h2>
+		<ul>
+			<li><a href="http://www.switchgroup.com/hosting/#package1">Home Package</a></li>
+			<li><a href="http://www.switchgroup.com/hosting/#package2">Business Package</a></li>
+			<li><a href="http://www.switchgroup.com/hosting/#package3">Business Pro Package</a></li>
+			<li><a href="http://www.switchgroup.com/hosting/#package4">Switch Start</a></li>
+		</ul>
+
+
+		<h2>Dedicated Servers</h2>
+		<ul>
+			<li><a href="http://www.switchgroup.com/servers/#package1">Linux Entry</a></li>
+			<li><a href="http://www.switchgroup.com/servers/#package2">Linux Pro</a></li>
+			<li><a href="http://www.switchgroup.com/servers/#package3">Co-location</a></li>
+		</ul>
+
+
+	</div>
+	<div id="content">
+
+<!-- THIS DENOTES FEATURE IMAGE -->
+		<img class="mainimage" src="http://ocp.switchgroup.com/holding/images/section-image.gif" width="407" alt="Switch Media Web Hosting" />
+<!-- END THIS DENOTES FEATURE IMAGE -->
+
+
+<!-- THIS DENOTES SECTION TITLE IMAGE  -->
+		
+<h2>Welcome to your New Hosting Account</h2>
+<!-- END THIS DENOTES SECTION TITLE IMAGE -->
+<!-- PUT PAGE CONTENT HERE --><b>If this is your domain name, then your account is now ready for your site to be uploaded.</b><br><br>
+
+
+<img src="http://www.switchgroup.com/domains/images/domain_research.gif" width="407" height="50" alt="research your domain name, type your name in the box below" /><div class="shadedcontent">
+	<form method="post" name="search" action="http://www.switchgroup.com/cgi-bin/ocp3/1ststage.pl">
+	<input name="domain" type="text" style="width:200px">
+	&nbsp;
+	<select name="tld" style="width:80px;height:17px;padding:0px;">
+                       <option value='.com'>.com</option>
+                       <option value='.net'>.net</option>
+                       <option value='.org'>.org</option>
+                       <option value='.us'>.us</option>
+		       <option value='.biz'>.biz</option>
+                       <option value='.name'>.name</option>
+                       <option value='.info'>.info</option>
+</select>
+	&nbsp;
+	<input type='hidden' name='pkg' value='basic'/>
+	<input type="submit" name="Submit" value="Go" class="gobuttons" style="width:30px;background-color:#ECE9D8"/>
+	</form>
+
+
+</div>
+
+
+
+<!-- END OF PAGE CONTENT -->
+
+
+
+
+	</div>
+	<div id="rightcolumn">
+	
+		<!-- start of a box -->
+		<div class="rightbox">
+			<img src="http://www.switchgroup.com/images/rightbox_top.gif" height="20" width="154" alt="Right Line of Box" />
+			<h2>CORPORATE INFO</h2>
+			<ul>
+				<li class="first"><a href="http://www.switchgroup.com/global/company-profile.shtml">Company Profile</a></li>
+				<li><a href="http://www.switchgroup.com/global/press-releases.shtml">Press Releases</a></li>
+				<li><a href="http://www.switchgroup.com/global/jobs.shtml">Jobs</a></li>
+				<li><a href="http://www.switchgroup.com/global/terms-and-conditions.shtml">Terms &amp; Conditions</a></li>
+				<li class="last"><a href="http://www.switchgroup.com/global/contact-us.shtml">Contact Us</a></li>
+			</ul>	
+			<img src="http://www.switchgroup.com/images/rightbox_bottom.gif" height="20" width="154" alt="Right Box at Bottom" /></div><!--  this closing div has to sit next t0 the bottom image cos of IE whitepace bugs -->
+		<!-- end of a box - closing div on line above -->
+		
+		<!-- start of a box -->
+		<div class="rightbox">
+			<img src="http://www.switchgroup.com/images/rightbox_top.gif" height="20" width="154" alt="Right Box at Top" />
+			<h2>EXISTING CLIENTS</h2>
+			<ul>
+				<li class="single"><a href="http://www.switchgroup.com/support/status.shtml">Systems Status</a></li>
+			</ul>	
+			<img src="http://www.switchgroup.com/images/rightbox_bottom.gif" height="20" width="154" alt="Right Box at Bottom" /></div><!--  this closing div has to sit next t0 the bottom image cos of IE whitepace bugs -->
+		<!-- end of a box - closing div on line above -->
+		<!-- advert boxes go in like this -->
+			<a href="http://design.switchmedia.co.uk"><img class="advert" src="http://www.switchgroup.com/images/ads/design/webdesign2.gif" alt="Web Design" /></a>
+			<a href="http://www.switchgroup.com/cgi-bin/ocp3/1ststage.pl?pkg=business"><img class="advert" src="http://www.switchgroup.com/images/ads/businessstarter.gif" alt="Business Hosting" /></a>
+		<!-- end of adverts -->
+	</div>
+
+
+<br clear="all" />
+
+
+
+
+</div>   
+
+<div id="footerwrap">
+	<div id="bottomlinks">
+   	<a href="http://www.switchgroup.com/global/privacy-policy.shtml">Privacy Policy</a>
+   </div>
+</div>
+
+
+</body>
+</html>
+
+

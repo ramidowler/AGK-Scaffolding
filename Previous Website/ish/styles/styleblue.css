@@ -1,0 +1,411 @@
+body {
+margin: 0px;
+padding: 0px;
+text-align: center;
+background: #d7e7e5;
+width: 100%;
+}
+html {
+	height: 100%;
+}
+
+
+#container {
+	height: auto;
+	width: 770px;
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+	background-color: #fff;
+}
+
+
+#top {
+	width: 770px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#contentarea {
+	width: 741px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0px;
+	clear: both;
+}
+
+
+
+#contenttop {
+	background: url(../styles/topcontainer.jpg) no-repeat;
+	margin: 0 auto;
+	padding-top: 0px;
+	height: auto;
+	width: 741px;
+	clear: both;
+}
+
+
+
+#companyname {
+	width: auto;
+	height: auto;
+	margin: 0px;
+	margin-top: 50px;
+	padding-left: 23px;
+	float: left;
+}
+
+
+
+
+#contentleft {
+	background: url(../styles/textarea.jpg) no-repeat bottom #fff;
+	width: 483px;
+	height: auto;
+	float: left;
+	margin: 25px 0px 20px 0px;
+	padding: 0 0 100px 0;
+}
+
+
+
+#profile {
+	width: 126px;
+	height: 17px;
+	margin-top: 0px;
+	padding-left: 23px;
+	float: left;
+}
+
+
+
+
+#text {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+	color: #426e68;
+	width: 436px;
+	height: 550px;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding: 0px;
+	text-align: left;
+	
+}
+
+
+
+
+#contentright {
+	width: 223px;
+	height: auto;
+	float: left;
+	margin: 70px 0px 20px 0px;
+	padding-left: 15px;
+	text-align:left;
+}
+
+
+
+#bottom {
+	background: url(../styles/stripe-boxes.jpg) no-repeat bottom #fff;
+	width: 740px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0px;
+	clear: both;
+}
+
+
+#textaddress {
+	width: 215px;
+	height: auto;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 11px;
+	color: #426e68;
+	float: left;
+	text-align: left;
+	margin: 0px 0px 35px 0px;
+	padding-left: 30px;
+}
+
+
+
+#textcontact {
+	width: 215px;
+	height: auto;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 11px;
+	color: #426e68;
+	float: left;
+	text-align: left;
+	margin: 0px 0px 35px 0px;
+	padding-left: 27px;
+}
+
+
+
+#textother {
+	width: 215px;
+	height: auto;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 11px;
+	color: #426e68;
+	float: left;
+	text-align: left;
+	margin: 0px 0px 35px 0px;
+	padding-left: 26px;
+}
+
+#uploadimage {
+	float: right;
+	padding-right: 40px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 11px;
+	color: #426e68;
+	text-align: left;
+}
+
+
+
+
+#footer{
+	background: url(../styles/footer.jpg) no-repeat;
+	width: 770px;
+	height: 38px;
+	margin: 0 auto;
+	clear: both;
+}
+
+
+
+
+#footertext {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 11px;
+	color: #426e68;
+	text-align: right;
+	padding-right: 25px;
+}
+#footertext a {
+	text-decoration:none;
+	color: #666;
+}
+
+#colorscheme {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 11px;
+	color: #426e68;
+	float: left;
+	margin: 35px 0px 0px 0px;
+	padding: 0px 0px 0px 35px;
+	height: 15px;
+}
+
+#blocks {
+	padding-left: 5px;
+}
+
+h1 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 16px;
+	color: #426e68;
+}
+
+#company {
+	float: left;
+	padding-left: 23px;
+}
+
+#email {
+	float: left;
+	padding-left: 23px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 11px;
+	color: #426e68;
+	text-align: left;
+}
+
+
+.move {
+	margin: 40px 0px 20px 0px;
+	padding-right: 50px;
+	float: right;
+}
+
+.profile {
+	width: 430px;
+	height: 200px;
+	
+}
+
+.button {
+
+   background: #8e8d8a;
+   border: 1px solid #bbbbbb;
+   padding: 0 9px 2px 9px;
+	margin: 0px 0px 2px 5px;
+   height: 20px;
+   font-family: Arial, Helvetica, sans-serif; 
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 10px;
+   color: #FFFFFF;
+            
+}
+
+.submit {
+	width: 355px;
+	height: 30px;
+	
+}
+
+.address {
+	width: 190px;
+	height: 60px;
+	
+}
+
+.telephone {
+	width: 190px;
+	height: 20px;
+	
+}
+
+/*=-=-= content divs =-=-=*/
+
+#div0 { 
+	position:absolute; 
+  	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+
+#div1 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+
+#div2 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+
+#div3 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+
+#div4 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+#div5 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+#div6 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+#div7 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+#div8 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+#div9 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+#div10 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+#div11 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+#div12 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+#div13 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+#div14 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+#div15 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}
+#div16 { 
+	position:absolute;  
+	visibility: hidden; 
+	left:0; 
+	top:0; 
+
+}

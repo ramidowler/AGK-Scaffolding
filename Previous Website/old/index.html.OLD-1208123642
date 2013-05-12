@@ -1,0 +1,251 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>A. G. K. Scaffolding - London</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+a:active, a:focus, a:hover, a:link, a:visited { color: #FFFFFF; TEXT-DECORATION: none}
+.style3 {
+	font-size: 11px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #000066;
+}
+.style4 {
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003366;
+}
+.style5 {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003366;
+}
+.style6 {color: #003366}
+.style7 {
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration:none;
+}
+.style8 {
+	color: #FF6600;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.FullCell {	BORDER-RIGHT: #FF9900 1px solid; BORDER-TOP: #FF9900 1px solid; FONT-SIZE: 10pt; BORDER-LEFT: #FF9900 1px solid; BORDER-BOTTOM: #FF9900 1px solid; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+-->
+</style>
+<SCRIPT language=JavaScript src="images/pop-closeup.js"></SCRIPT>
+<SCRIPT language=JavaScript type=text/javascript>
+<!-- Fshije kete script nga browser-at qe nuk suportojne javascripts
+  function Validate()
+  {
+  formObj = document.forms["contactform"];
+  var errorMessage = "Please check that u filled all the required fields:\r\n\r\n";
+  var okToSubmit = true;
+  if (formObj.elements["emri"].value == "") {
+    okToSubmit = false;
+    errorMessage += "  Please write your name\r\n";
+  }
+  if (formObj.elements["email"].value == "") {
+    okToSubmit = false;
+    errorMessage += "  Please write your email address\r\n";
+  }
+  if (formObj.elements["telefoni"].value == "") {
+    okToSubmit = false;
+    errorMessage += "  Please write your telephone number\r\n";
+  }
+  if (formObj.elements["fax"].value == "") {
+    okToSubmit = false;
+    errorMessage += "  Please write your fax number\r\n";
+  }
+  if (formObj.elements["mesazhi"].value == "") {
+    okToSubmit = false;
+    errorMessage += "  Plese write your scaffolding requirements or questions\r\n";
+  }
+  if (!okToSubmit) {
+    errorMessage += "\r\nPlease correct all your errors and resent the formular!";
+    alert(errorMessage);
+  }
+  return okToSubmit;
+}
+    // fundi i fshehjes -->
+</SCRIPT>
+<script type="text/javascript">
+
+/***********************************************
+* Dynamic Ajax Content- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+var bustcachevar=1 //bust potential caching of external pages after initial request? (1=yes, 0=no)
+var loadedobjects=""
+var rootdomain="http://"+window.location.hostname
+var bustcacheparameter=""
+
+function ajaxpage(url, containerid){
+var page_request = false
+if (window.XMLHttpRequest) // if Mozilla, Safari etc
+page_request = new XMLHttpRequest()
+else if (window.ActiveXObject){ // if IE
+try {
+page_request = new ActiveXObject("Msxml2.XMLHTTP")
+} 
+catch (e){
+try{
+page_request = new ActiveXObject("Microsoft.XMLHTTP")
+}
+catch (e){}
+}
+}
+else
+return false
+page_request.onreadystatechange=function(){
+loadpage(page_request, containerid)
+}
+if (bustcachevar) //if bust caching of external page
+bustcacheparameter=(url.indexOf("?")!=-1)? "&"+new Date().getTime() : "?"+new Date().getTime()
+page_request.open('GET', url+bustcacheparameter, true)
+page_request.send(null)
+}
+
+function loadpage(page_request, containerid){
+if (page_request.readyState == 4 && (page_request.status==200 || window.location.href.indexOf("http")==-1))
+document.getElementById(containerid).innerHTML=page_request.responseText
+}
+
+function loadobjs(){
+if (!document.getElementById)
+return
+for (i=0; i<arguments.length; i++){
+var file=arguments[i]
+var fileref=""
+if (loadedobjects.indexOf(file)==-1){ //Check to see if this object has not already been added to page before proceeding
+if (file.indexOf(".js")!=-1){ //If object is a js file
+fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript");
+fileref.setAttribute("src", file);
+}
+else if (file.indexOf(".css")!=-1){ //If object is a css file
+fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet");
+fileref.setAttribute("type", "text/css");
+fileref.setAttribute("href", file);
+}
+}
+if (fileref!=""){
+document.getElementsByTagName("head").item(0).appendChild(fileref)
+loadedobjects+=file+" " //Remember this object as being already added to page
+}
+}
+}
+
+</script>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+</head>
+
+<body>
+<table width="767" border="0" align="center" cellpadding="0" cellspacing="0">
+  
+  <tr>
+    <td width="4" rowspan="9">&nbsp;</td>
+    <td width="41" rowspan="3"><img src="images/krahu-m-2.png" width="41" height="81"></td>
+    <td width="198" height="17">&nbsp;</td>
+    <td width="280" rowspan="2" align="center" class="style5"><script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','198','height','50','src','images/agk-logo','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','images/agk-logo' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="198" height="50">
+        <param name="movie" value="images/agk-logo.swf">
+        <param name="quality" value="high">
+        <embed src="images/agk-logo.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="198" height="50"></embed>
+      </object>
+      </noscript><br>
+    <img src="images/pix.gif" width="300" height="1">
+</td>
+    <td width="199">&nbsp;</td>
+    <td width="41" rowspan="3"><img src="images/krahu-d-2.png" width="41" height="81"></td>
+    <td width="10" rowspan="9">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="33"><img src="images/agk-m.png" width="198" height="50"></td>
+    <td width="199"><img src="images/agk-d.png" width="200" height="50"></td>
+  </tr>
+  <tr>
+    <td height="12" colspan="3" align="center" bgcolor="#FE0010" class="style7"><div id="menukolona">
+<a href="javascript:ajaxpage('ajaxfiles/home.htm', 'rightcolumn');">Home</a>&nbsp;|&nbsp;
+<a href="javascript:ajaxpage('ajaxfiles/scaffolding.htm', 'rightcolumn');">Scaffolding</a>&nbsp;|&nbsp;
+<a href="javascript:ajaxpage('ajaxfiles/gallery.htm', 'rightcolumn');">Gallery</a>&nbsp;|&nbsp;
+<a href="javascript:ajaxpage('ajaxfiles/contact.htm', 'rightcolumn');">Contact</a></div></td>
+  </tr>
+  
+  <tr>
+    <td height="38" colspan="5"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td colspan="4">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="377" height="147"><blockquote>
+              <blockquote>
+                <p class="style5">A.G.K Scaffolding</p>
+                <p class="style4 style6">AGK Scaffolding Ltd had been involved in the scaffolding industry since 2004 and has built its reputation within the industry as one that provides a quality and professional service.</p>
+                <p class="style4">We provide design help, which brings with it innovative ideas to improve cost, quality and end results. Our aim is to reach the highest level of client satisfaction in all areas and to work with our clients, involving a proactive approach and move our service along with new technology developments within our industry to ensure a positive, qulity service.</p>
+              </blockquote>
+          </blockquote></td>
+		  <td width="4" rowspan="2" bgcolor="#FF3333">&nbsp;</td>
+          <td width="35" rowspan="2" align="center"></td> 
+          <td width="310" align="center"><div id="rightcolumn"><p style="border-left: 5px solid #FF9900; border-right: 5px solid #FF9900; border-top: 10px solid #CCCC99; border-bottom: 10px solid #CCCC99"><img src="images/agk-working-side-1.jpg" width="300" height="255" align="absmiddle"></p>
+          </div>
+<div style="clear: left; margin-bottom: 1em"></div></td>
+          <td width="54" rowspan="2" align="center">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="148"><blockquote>
+              <blockquote><p class="style8"><b>Agk Scaffolding Ltd</b><br />
+161 Norland House<br />
+Queensdale Cr.<br />
+London W11 4TW<br />
+<br />
+Units Depot Road<br />
+58 Wood Lane White City<br />
+London W12 7RZ<br />
+<br />
+
+Tel/Fax: 02032660123<br />
+Mob: 07940202235</p>
+              </blockquote>
+          </blockquote></td>
+          <td width="310" align="center" bgcolor="#FBFBFD"><table border="0" cellpadding="0" cellspacing="0"><tr><td style="border-left: 5px solid #FF0033; border-right: 5px solid #FF0033; border-top: 10px solid #CCCC99; border-bottom: 10px solid #CCCC99"><script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','300','height','50','src','images/agk-gallery','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','images/agk-gallery' ); //end AC code
+            </script>
+            <noscript>
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="300" height="50">
+              <param name="movie" value="images/agk-gallery.swf">
+              <param name="quality" value="high">
+              <embed src="images/agk-gallery.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="300" height="50"></embed>
+            </object></noscript></td></tr></table></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="5" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="2" align="center"></td>
+    <td height="2" align="center" bgcolor="#FE0010"></td>
+    <td height="2" align="center" bgcolor="#FE0010"></td>
+    <td height="2" align="center" bgcolor="#FE0010"></td>
+    <td height="2" align="center"></td>
+  </tr>
+  <tr>
+    <td colspan="5" align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="5" align="center"><span class="style3">&copy; 2007 Agk-Scaffolding.co.uk</span></td>
+  </tr>
+</table>
+</body>
+</html>

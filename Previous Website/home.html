@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<SCRIPT LANGUAGE="JavaScript"> 
+<!-- Original:  CodeLifter.com (support@codelifter.com) -->
+<!-- Web Site:  http://www.codelifter.com -->
+ 
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+ 
+<!-- Begin
+// Set slideShowSpeed (milliseconds)
+var slideShowSpeed = 4000;
+// Duration of crossfade (seconds)
+var crossFadeDuration = 3;
+// Specify the image files
+var Pic = new Array();
+// to add more images, just continue
+// the pattern, adding to the array below
+ 
+Pic[0] = '01.jpeg'
+Pic[1] = '02.jpeg'
+Pic[2] = '03.jpeg'
+Pic[3] = '04.jpeg'
+Pic[4] = '05.jpeg'
+Pic[5] = '06.jpeg'
+Pic[6] = '07.jpeg'
+Pic[7] = '08.jpeg'
+Pic[8] = '09.jpeg'
+Pic[9] = '10.jpeg'
+Pic[10] = '11.jpeg'
+Pic[11] = '12.jpeg'
+Pic[12] = '13.jpeg'
+ 
+// do not edit anything below this line
+var t;
+var j = 0;
+var p = Pic.length;
+var preLoad = new Array();
+for (i = 0; i < p; i++) {
+preLoad[i] = new Image();
+preLoad[i].src = Pic[i];
+}
+function runSlideShow() {
+if (document.all) {
+document.images.SlideShow.style.filter="blendTrans(duration=2)";
+document.images.SlideShow.style.filter="blendTrans(duration=crossFadeDuration)";
+document.images.SlideShow.filters.blendTrans.Apply();
+}
+document.images.SlideShow.src = preLoad[j].src;
+if (document.all) {
+document.images.SlideShow.filters.blendTrans.Play();
+}
+j = j + 1;
+if (j > (p - 1)) j = 0;
+t = setTimeout('runSlideShow()', slideShowSpeed);
+}
+//  End -->
+</script>
+
+</head>
+
+<body onLoad="runSlideShow()" background="rightcolumnbg.png">
+
+<img src="01.jpeg" width="360" height="480" border="1"  name='SlideShow'>
+</body>
+</html>

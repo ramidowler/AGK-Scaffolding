@@ -1,0 +1,259 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>AGK Scaffolding</title>
+<meta 
+<meta 
+<meta 
+<meta 
+<style type="text/css">
+<!--
+a:active, a:focus, a:hover, a:link, a:visited { color: #FFFFFF; TEXT-DECORATION: none}
+.style3 {
+	font-size: 11px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #000066;
+}
+.style4 {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+.style5 {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+.style6 {color: #003366}
+.style7 {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration:none;
+}
+.style8 {
+	color: #FF6600;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.FullCell {	BORDER-RIGHT: #FF9900 1px solid; BORDER-TOP: #FF9900 1px solid; FONT-SIZE: 10pt; BORDER-LEFT: #FF9900 1px solid; BORDER-BOTTOM: #FF9900 1px solid; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+body {
+	background-image: url(Background3.jpg);
+}
+-->
+</style>
+<SCRIPT language=JavaScript src="images/pop-closeup.js"></SCRIPT>
+<SCRIPT language=JavaScript type=text/javascript>
+<!-- Fshije kete script nga browser-at qe nuk suportojne javascripts
+  function Validate()
+  {
+  formObj = document.forms["contactform"];
+  var errorMessage = "Please check that u filled all the required fields:\r\n\r\n";
+  var okToSubmit = true;
+  if (formObj.elements["emri"].value == "") {
+    okToSubmit = false;
+    errorMessage += "  Please write your name\r\n";
+  }
+  if (formObj.elements["email"].value == "") {
+    okToSubmit = false;
+    errorMessage += "  Please write your email address\r\n";
+  }
+  if (formObj.elements["telefoni"].value == "") {
+    okToSubmit = false;
+    errorMessage += "  Please write your telephone number\r\n";
+  }
+  if (formObj.elements["fax"].value == "") {
+    okToSubmit = false;
+    errorMessage += "  Please write your fax number\r\n";
+  }
+  if (formObj.elements["mesazhi"].value == "") {
+    okToSubmit = false;
+    errorMessage += "  Plese write your scaffolding requirements or questions\r\n";
+  }
+  if (!okToSubmit) {
+    errorMessage += "\r\nPlease correct all your errors and resent the formular!";
+    alert(errorMessage);
+  }
+  return okToSubmit;
+}
+    // fundi i fshehjes -->
+</SCRIPT>
+<script type="text/javascript">
+
+/***********************************************
+* Dynamic Ajax Content- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+var bustcachevar=1 //bust potential caching of external pages after initial request? (1=yes, 0=no)
+var loadedobjects=""
+var rootdomain="http://"+window.location.hostname
+var bustcacheparameter=""
+
+function ajaxpage(url, containerid){
+var page_request = false
+if (window.XMLHttpRequest) // if Mozilla, Safari etc
+page_request = new XMLHttpRequest()
+else if (window.ActiveXObject){ // if IE
+try {
+page_request = new ActiveXObject("Msxml2.XMLHTTP")
+} 
+catch (e){
+try{
+page_request = new ActiveXObject("Microsoft.XMLHTTP")
+}
+catch (e){}
+}
+}
+else
+return false
+page_request.onreadystatechange=function(){
+loadpage(page_request, containerid)
+}
+if (bustcachevar) //if bust caching of external page
+bustcacheparameter=(url.indexOf("?")!=-1)? "&"+new Date().getTime() : "?"+new Date().getTime()
+page_request.open('GET', url+bustcacheparameter, true)
+page_request.send(null)
+}
+
+function loadpage(page_request, containerid){
+if (page_request.readyState == 4 && (page_request.status==200 || window.location.href.indexOf("http")==-1))
+document.getElementById(containerid).innerHTML=page_request.responseText
+}
+
+function loadobjs(){
+if (!document.getElementById)
+return
+for (i=0; i<arguments.length; i++){
+var file=arguments[i]
+var fileref=""
+if (loadedobjects.indexOf(file)==-1){ //Check to see if this object has not already been added to page before proceeding
+if (file.indexOf(".js")!=-1){ //If object is a js file
+fileref=document.createElement('script')
+fileref.setAttribute("type","text/javascript");
+fileref.setAttribute("src", file);
+}
+else if (file.indexOf(".css")!=-1){ //If object is a css file
+fileref=document.createElement("link")
+fileref.setAttribute("rel", "stylesheet");
+fileref.setAttribute("type", "text/css");
+fileref.setAttribute("href", file);
+}
+}
+if (fileref!=""){
+document.getElementsByTagName("head").item(0).appendChild(fileref)
+loadedobjects+=file+" " //Remember this object as being already added to page
+}
+}
+}
+
+</script>
+
+<SCRIPT LANGUAGE="JavaScript"> 
+<!-- Original:  CodeLifter.com (support@codelifter.com) -->
+<!-- Web Site:  http://www.codelifter.com -->
+ 
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+ 
+<!-- Begin
+// Set slideShowSpeed (milliseconds)
+var slideShowSpeed = 4000;
+// Duration of crossfade (seconds)
+var crossFadeDuration = 3;
+// Specify the image files
+var Pic = new Array();
+// to add more images, just continue
+// the pattern, adding to the array below
+
+
+Pic[0] = 'images/agk-working-side-1-2.jpg'
+Pic[1] = 'images/agk-working-side-2-2.jpg'
+Pic[2] = 'images/agk-working-side-3-2.jpg'
+Pic[3] = 'images/agk-working-side-4-2.jpg'
+Pic[4] = 'images/agk-working-side-5-2.jpg'
+Pic[5] = 'images/agk-working-side-6-2.jpg'
+Pic[6] = 'images/agk-working-side-7-2.jpg'
+Pic[7] = 'images/agk-working-side-8-2.jpg'
+ 
+// do not edit anything below this line
+var t;
+var j = 0;
+var p = Pic.length;
+var preLoad = new Array();
+for (i = 0; i < p; i++) {
+preLoad[i] = new Image();
+preLoad[i].src = Pic[i];
+}
+function runSlideShow() {
+if (document.all) {
+document.images.SlideShow.style.filter="blendTrans(duration=2)";
+document.images.SlideShow.style.filter="blendTrans(duration=crossFadeDuration)";
+document.images.SlideShow.filters.blendTrans.Apply();
+}
+document.images.SlideShow.src = preLoad[j].src;
+if (document.all) {
+document.images.SlideShow.filters.blendTrans.Play();
+}
+j = j + 1;
+if (j > (p - 1)) j = 0;
+t = setTimeout('runSlideShow()', slideShowSpeed);
+}
+//  End -->
+</script>
+
+
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+
+<body background="Background3.jpg"  onLoad="runSlideShow()">
+<table width="1000" height="1489" border="0" align="center" background="Background Template 01.png">
+  <tr>
+    <td width="491" height="174">&nbsp;</td>
+    <td width="499">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="66" colspan="2" align="center"><img src="menu2.png" width="600" height="50" border="0" usemap="#Map"></td>
+  </tr>
+  <tr>
+    <td height="1182" align="left" valign="top"><blockquote>
+      <p>&nbsp;</p>
+      <p class="style5" style="color:#FFF;font-size: 14px;font-family:Verdana, Geneva, sans-serif;font-weight:bold">A.G.K Scaffolding</p>
+      <p class="style4" style="color:#FFF;font-size: 12px;font-family:Verdana, Geneva, sans-serif">Welcome to AGK Scaffolding.</p>
+      <p class="style4" style="color:#FFF;font-size: 12px;font-family:Verdana, Geneva, sans-serif">Since 2004 AGK has become one of the leading companies and an industry leader in embracing improvements of Health &amp; Safety standards.</p>
+      <p class="style4" style="color:#FFF;font-size: 12px;font-family:Verdana, Geneva, sans-serif">Our wide range of services are guaranteed to comply with the NASC endorsed &quot;Best Practice Guidelines for UK&quot;. So you always know you're in safe hands.</p>
+      <p class="style4" style="color:#FFF;font-size: 12px;font-family:Verdana, Geneva, sans-serif">&nbsp;</p>
+      <p class="style5" style="color:#FFF;font-size: 14px;font-family:Verdana, Geneva, sans-serif;font-weight:bold">AGK SCAFFOLDING</p>
+      <p class="style4" style="color:#FFF;font-size: 12px;font-family:Verdana, Geneva, sans-serif">58 Wood Lane,<br>
+        Depot Road, White City<br>
+W12 7RZ <br />
+<br />
+Tel/Fax: 02032660123<br />
+Mob: 07862754445</span></p>
+      <p>&nbsp;</p>
+      <p><img src="images/agk-working-side-1-2.jpg" width="400" height="300" border="1" name='SlideShow'/></p>
+    </blockquote>    </td>
+    <td align="center" valign="top"><p>&nbsp;</p>
+<iframe name="rightcolumn" src="home.html" width="445" height="1100" scrolling="auto" frameborder="0" marginheight="0" marginwidth="0" style="background:none" allowtransparency="true"></iframe>
+      <p class="style4"></p>
+        
+      </div>
+    <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" valign="middle"><p class="style4" style="color:#FFF;font-size: 12px;font-family:Verdana, Geneva, sans-serif">AGK &copy; 2007 Designed by Rami Abdelal</p></td>
+  </tr>
+</table>
+
+<map name="Map">
+  <area shape="rect" coords="4,3,109,48" href="home.html" target="rightcolumn">
+  <area shape="rect" coords="110,3,299,48" href="scaffolding.html" target="rightcolumn">
+  <area shape="rect" coords="300,3,423,48" href="gallery.html" target="rightcolumn">
+  <area shape="rect" coords="424,3,595,48" href="contactus.html" target="rightcolumn">
+</map>
+</body>
+</html>
